@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainScreenController">
+   <children>
+      <Button layoutX="129.0" layoutY="136.0" mnemonicParsing="false" onAction="#customerRecordsButton" text="Customer Records" />
+      <Button layoutX="350.0" layoutY="136.0" mnemonicParsing="false" onAction="#appointmentsButton" text="Appointment Records" />
+      <Button layoutX="533.0" layoutY="353.0" mnemonicParsing="false" onAction="#exitButton" text="Exit" />
+      <Label layoutX="195.0" layoutY="24.0" text="Welcome!">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="198.0" layoutY="247.0" mnemonicParsing="false" onAction="#customerAppointmentsButton" prefWidth="204.0" text="Appointments by Month &amp; Type" />
+      <Label layoutX="265.0" layoutY="200.0" text="Reports:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="198.0" layoutY="292.0" mnemonicParsing="false" onAction="#contactSchedulesButton" prefHeight="25.0" prefWidth="204.0" text="Contact Schedules" />
+      <Button layoutX="198.0" layoutY="337.0" mnemonicParsing="false" onAction="#userAppointmentsButton" prefHeight="25.0" prefWidth="204.0" text="Appointments Scheduled by Users" />
+   </children>
+</AnchorPane>
